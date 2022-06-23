@@ -1,0 +1,42 @@
+coID,coName,coIDS,coNameS,coType,coSubtype,risk
+0,AI Claim Solutions Plc,,,Other,,0
+1,VBS Mutual Bank,,VBS MUTUAL BANK,Bank,Peer 1,1
+2,Absa Group,,,Bank,Group,0
+3,Absa Bank Ltd,I0034118,ABSA BANK LTD,Bank,Peer 1,0
+4,Firstrand Ltd,,,Bank,Group,0
+5,Firstrand Bank Ltd,I0416053,FIRSTRAND BANK LIMITED,Bank,Peer 1,0
+6,Investec Group,,,Bank,Group,0
+7,Investec Bank Ltd,I0025054,INVESTEC BANK LTD,Bank,Peer 1,0
+8,Nedbank Group,,,Bank,Group,0
+9,Nedbank Ltd,I0416088,NEDBANK LTD,Bank,Peer 1,0
+10,Standard Bank Group,,,Bank,Group,0
+11,Standard Bank of S A Ltd,I0416061,THE STANDARD BANK OF S A LTD,Bank,Peer 1,0
+12,Bnp Paribas South Africa Branch,I0478636,BNP PARIBAS SOUTH AFRICA BRANCH,Bank,Peer 2,0
+13,Citibank N.A,I0165565,CITIBANK N.A,Bank,Peer 2,0
+14,Deutsche Bank Ag,I0333778,DEUTSCHE BANK AG,Bank,Peer 2,0
+15,HSBC Bank Plc - Johannesburg Branch,I0535761,HSBC BANK PLC - JOHANNESBURG BRANCH,Bank,Peer 2,0
+16,JP Morgan Chase and Co,I0331899,JPMORGAN CHASE BANK (JOHANNESBURG BRANCH),Bank,Peer 2,0
+17,Societe Generale Johannesburg Branch,I0025046,SOCIETE GENERALE JOHANNESBURG BRANCH,Bank,Peer 2,0
+18,Standard Chartered Bank,I0535788,STANDARD CHARTERED BANK,Bank,Peer 2,0
+19,Albaraka Bank Ltd,I0110728,ALBARAKA BANK LTD,Bank,Peer 3,0
+20,Bidvest Bank Ltd,I0025070,BIDVEST BANK LIMITED,Bank,Peer 3,0
+21,Ithala Ltd,I0329568,ITHALA LIMITED,Bank,Peer 3,0
+22,Mercantile Bank Ltd,I0416096,MERCANTILE BANK LTD,Bank,Peer 3,0
+23,Sasfin Bank Ltd,I0335487,SASFIN BANK LTD,Bank,Peer 3,0
+24,Fairfax Africa,,,Bank,Group,0
+25,S A Bank of Athens Ltd,I0416134,THE S A BANK OF ATHENS LTD,Bank,Peer 3,0
+26,Bank of Baroda,I0331562,BANK OF BARODA,Bank,Peer 4,0
+27,Bank of China Ltd Jhb Branch,I0337889,BANK OF CHINA LTD JHB BRANCH (T/A BANK OF CHINA JHB BRANC,Bank,Peer 4,0
+28,Bank of India - Johannesburg Branch,I0477842,BANK OF INDIA - JOHANNESBURG BRANCH,Bank,Peer 4,0
+29,Bank of Taiwan South Africa Branch,I0148520,BANK OF TAIWAN SOUTH AFRICA BRANCH,Bank,Peer 4,0
+30,Bank of Canara,I0154679,CANARA BANK,Bank,Peer 4,0
+31,China Construction Bank Corporation - Jhb Branch,I0341037,CHINA CONSTRUCTION BANK CORPORATION - JHB BRANCH,Bank,Peer 4,0
+32,ICICI Bank Ltd,I0159158,ICICI BANK LIMITED,Bank,Peer 4,0
+33,State Bank of India,I0170798,STATE BANK OF INDIA,Bank,Peer 4,0
+34,African Bank Limited (N),I0160571,AFRICAN BANK LIMITED (N),Bank,Peer 5,0
+35,African Bank Limited (O),I0024988,AFRICAN BANK LIMITED (O),Bank,Peer 5,1
+36,Capitec Bank,I0333107,CAPITEC BANK,Bank,Peer 5,0
+37,Grindrod Bank,I0155438,GRINDROD BANK,Bank,Peer 5,0
+38,Habib Overseas Bank Ltd,I0129593,HABIB OVERSEAS BANK LTD,Bank,Peer 5,0
+39,Hbz Bank Ltd,I0165816,HBZ BANK LTD,Bank,Peer 5,0
+40,Ubank Ltd,I0341894,UBANK LIMITED,Bank,Peer 5,0
