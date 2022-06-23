@@ -55,6 +55,7 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   ├── colab                                       <- Code for Google Colaboratory and cloud runtime
     │   │   ├── 1_0_Colab Import.ipynb                  <- Extract PDF text, convert booklets, count words by page and write pageText.csv
     │   │   ├── 2_0_Colab EDA.ipynb                     <- Exploratory Data Analysis (incl. Chi-Square) and write docReadability.csv
+    │   │   ├── 3_0_Colab Classifier.ipynb              <- Loop through raw and stemmed/lemmatized tokens as well as classifiers
     │   │   ├── 4_0_Colab Classifier Applied LR.ipynb   <- Logistic Regression prediction, LIME, feature selection and write prob_test_LR.csv
     │   │   └── 4_1_Colab Classifier Applied SVMa.ipynb <- Support Vector Machine (with auto gamma) prediction, LIME, feature selection and write prob_test_SVMa.csv
     │   └── jupyter                                     <- Code for Python 3 and local runtime e.g. using Jupyter or JupyterLab
