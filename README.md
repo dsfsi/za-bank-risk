@@ -27,7 +27,9 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │       └── Other                         <- Other risk-related reports downloaded from internet websites
     ├── notebooks                             <- Python code
     │   ├── colab                             <- Code for Google Colaboratory and cloud runtime
+    │   │     └── 1_0_Colab Import.ipynb      <- Extract PDF text, convert booklets, count words by page and calculate readability
     │   └── jupyter                           <- Code for Python 3 and local runtime e.g. using Jupyter or JupyterLab
+    │         └── 1_0_Import.ipynb            <- Extract PDF text, convert booklets, count words by page and calculate readability
     ├── .gitignore
     ├── LICENSE
     └── README.md
