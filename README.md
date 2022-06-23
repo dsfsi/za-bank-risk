@@ -41,6 +41,7 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   │   ├── match.csv                   <- Keywords to match and classify headers based on El-Haj et al.
     │   │   └── MatchToC.txt                <- Keywords to identify Table of Content header
     │   ├── processed
+    │   │   └── pageText.csv                <- Text per page per document with word counts per page and per wordlist
     │   └── raw
     │       ├── Annual Reports              <- PDF files downloaded from internet websites
     │       │   ├── Bank                    <- Annual reports read and processed to create the dataset
@@ -48,9 +49,9 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │       └── Other                       <- Other risk-related reports downloaded from internet websites
     ├── notebooks                           <- Python code
     │   ├── colab                           <- Code for Google Colaboratory and cloud runtime
-    │   │   └── 1_0_Colab Import.ipynb      <- Extract PDF text, convert booklets, count words by page and calculate readability
+    │   │   └── 1_0_Colab Import.ipynb      <- Extract PDF text, convert booklets, count words by page and write pageText.csv
     │   └── jupyter                         <- Code for Python 3 and local runtime e.g. using Jupyter or JupyterLab
-    │       └── 1_0_Import.ipynb            <- Extract PDF text, convert booklets, count words by page and calculate readability
+    │       └── 1_0_Import.ipynb            <- Extract PDF text, convert booklets, count words by page and write pageText.csv
     ├── .gitignore
     ├── LICENSE
     └── README.md
