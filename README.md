@@ -38,12 +38,13 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   │   ├── docMap.csv                  <- Reference data: Document mapping file 
     │   │   ├── fileNoMap.csv               <- Output data: PDF files read that were not in the document mapping file 
     │   │   ├── header.csv                  <- Output data: Header text extracted from PDF files
-    │   │   └── MatchToC.txt                <- Keywords/substrings to identify Table of Content header
+    │   │   ├── match.csv                   <- Keywords to match and classify headers based on El-Haj et al.
+    │   │   └── MatchToC.txt                <- Keywords to identify Table of Content header
     │   ├── processed
     │   └── raw
     │       ├── Annual Reports              <- PDF files downloaded from internet websites
-    │       │   ├── Bank
-    │       │   └── Insurer
+    │       │   ├── Bank                    <- Annual reports read and processed to create the dataset
+    │       │   └── Insurer                 <- Empty folder for insurer reports to be stored in future
     │       └── Other                       <- Other risk-related reports downloaded from internet websites
     ├── notebooks                           <- Python code
     │   ├── colab                           <- Code for Google Colaboratory and cloud runtime
