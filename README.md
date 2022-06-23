@@ -19,6 +19,21 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
 ------------
     ├── data
     │   ├── interim
+    │   │     └── wordlists                   <- Lists of keywords/substrings to extract linguistic features
+    │   │         ├── causal.txt              <- Causal reasoning wordlist relating to performance commentary, based on a composite wordlist from El-Haj et al.
+    │   │         ├── causalMartin50.txt      <- Causal reasoning wordlist based on El-Haj et al.
+    │   │         ├── causalMartinAll.txt     <- Causal reasoning wordlist based on El-Haj et al.
+    │   │         ├── ForwardLooking.txt      <- Forwardlooking wordlist based on the list proposed by Hussainey et al.
+    │   │         ├── forwardLookingNew.txt   <- Forwardlooking wordlist based on an updated version of the list proposed by Hussainey et al.
+    │   │         ├── HenryNeg2006.txt        <- Negative wordlist based on Henry (2006)
+    │   │         ├── HenryNeg2008.txt        <- Negative wordlist based on Henry (2008)
+    │   │         ├── HenryPos2006.txt        <- Positive wordlist based on Henry (2006)
+    │   │         ├── HenryPos2008.txt        <- Positive wordlist based on Henry (2008)
+    │   │         ├── LMnegative.txt          <- Negative wordlist based on Loughran and McDonald
+    │   │         ├── LMpositive.txt          <- Positive wordlist based on Loughran and McDonald
+    │   │         ├── newStrategy.txt         <- Wordlist for identifying strategy-related commentary based on El-Haj et al.
+    │   │         ├── performance.txt         <- Wordlist for identifying performance-related commentary based on El-Haj et al.
+    │   │         └── Uncertainty.txt         <- Uncertainty wordlist based on Loughran and McDonald
     │   ├── processed
     │   └── raw
     │       ├── Annual Reports                <- PDF files downloaded from internet websites
