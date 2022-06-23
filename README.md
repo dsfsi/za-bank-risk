@@ -3,8 +3,7 @@
 ## About Dataset
 
 This repository is an initial pipeline for reading, processing, labelling and classifying unstructured annual reports of South
-African (SA) banks with the aim of identifying financial risk. It leveraged work by the Corporate Financial Information Environment
-- Final Report Structure Extractor (CFIE–FRSE) of El-Haj et al. which created a corpus of annual reports of United Kingdom (UK) companies.
+African (SA) banks with the aim of identifying financial risk. It leveraged work by the Corporate Financial Information Environment-Final Report Structure Extractor (CFIE–FRSE) of El-Haj et al. which created a corpus of annual reports of United Kingdom (UK) companies.
 
 ## About Data collection methodology
 
