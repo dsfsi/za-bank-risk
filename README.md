@@ -44,6 +44,7 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   │   ├── pageBlocks.csv*               <- Text blocks per page per document with word counts per page and per wordlist
     │   │   ├── pageText.csv*                 <- Text per page per document with word counts per page and per wordlist
     │   │   ├── pageTextRef.csv               <- Text per page of reference report to validate word counts with CFIE–FRSE
+    │   │   ├── prob_test_LR.csv              <- Probability of risk on test dataset reports predicted by Logistic Regression
     │   │   └── prob_test_SVMa.csv            <- Probability of risk on test dataset reports predicted by Support Vector Machine with auto gamma
     │   └── raw
     │       ├── Annual Reports                <- PDF files downloaded from internet websites
@@ -54,7 +55,8 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   ├── colab                                       <- Code for Google Colaboratory and cloud runtime
     │   │   ├── 1_0_Colab Import.ipynb                  <- Extract PDF text, convert booklets, count words by page and write pageText.csv
     │   │   ├── 2_0_Colab EDA.ipynb                     <- Exploratory Data Analysis (incl. Chi-Square) and write docReadability.csv
-    │   │   └── 3_1_Colab Classifier Applied SVMa.ipynb <- Exploratory Data Analysis (incl. Chi-Square) and write docReadability.csv
+    │   │   ├── 4_0_Colab Classifier Applied LR.ipynb   <- Logistic Regression prediction, LIME, feature selection and write prob_test_LR.csv
+    │   │   └── 4_1_Colab Classifier Applied SVMa.ipynb <- Support Vector Machine (with auto gamma) prediction, LIME, feature selection and write prob_test_SVMa.csv
     │   └── jupyter                                     <- Code for Python 3 and local runtime e.g. using Jupyter or JupyterLab
     │       │── 1_0_Import.ipynb                        <- Extract PDF text, convert booklets, count words by page and write pageText.csv
     │       └── 1_1_Import Count Blocks.ipynb           <- Extract PDF text, convert booklets, count words by page and write pageBlocks.csv
