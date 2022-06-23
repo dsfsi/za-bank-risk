@@ -2,8 +2,7 @@
 
 ## About Dataset
 
-This repository is an initial pipeline for reading, processing, labelling and classifying unstructured annual reports of South
-African (SA) banks with the aim of identifying financial risk. It leveraged work by the Corporate Financial Information Environment-Final Report Structure Extractor (CFIE–FRSE) of El-Haj et al. which created a corpus of annual reports of United Kingdom (UK) companies.
+This repository is an initial pipeline for reading, processing, labelling and classifying unstructured annual reports of South African (SA) banks with the aim of identifying financial risk. It leveraged work by the Corporate Financial Information Environment-Final Report Structure Extractor (CFIE–FRSE) of El-Haj et al. which created a corpus of annual reports of United Kingdom (UK) companies.
 
 ## About Data collection methodology
 
@@ -41,6 +40,7 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   │   ├── match.csv                     <- Keywords to match and classify headers based on El-Haj et al.
     │   │   └── MatchToC.txt                  <- Keywords to identify Table of Content header
     │   ├── processed
+    │   │   │── docReadability.csv            <- Readability results per document without the text
     │   │   │── pageBlocks.csv*               <- Text blocks per page per document with word counts per page and per wordlist
     │   │   │── pageText.csv*                 <- Text per page per document with word counts per page and per wordlist
     │   │   └── pageTextRef.csv               <- Text per page of reference report to validate word counts with CFIE–FRSE
@@ -51,7 +51,8 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │       └── Other                         <- Other risk-related reports downloaded from internet websites
     ├── notebooks                             <- Python code
     │   ├── colab                             <- Code for Google Colaboratory and cloud runtime
-    │   │   └── 1_0_Colab Import.ipynb        <- Extract PDF text, convert booklets, count words by page and write pageText.csv
+    │   │   │── 1_0_Colab Import.ipynb        <- Extract PDF text, convert booklets, count words by page and write pageText.csv
+    │   │   └── 2_0_Colab EDA.ipynb           <- Exploratory Data Analysis (incl. Chi-Square) and write docReadability.csv
     │   └── jupyter                           <- Code for Python 3 and local runtime e.g. using Jupyter or JupyterLab
     │       │── 1_0_Import.ipynb              <- Extract PDF text, convert booklets, count words by page and write pageText.csv
     │       └── 1_1_Import Count Blocks.ipynb <- Extract PDF text, convert booklets, count words by page and write pageBlocks.csv
