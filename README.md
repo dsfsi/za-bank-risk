@@ -41,7 +41,9 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   │   ├── match.csv                     <- Keywords to match and classify headers based on El-Haj et al.
     │   │   └── MatchToC.txt                  <- Keywords to identify Table of Content header
     │   ├── processed
-    │   │   └── pageText.csv*                 <- Text per page per document with word counts per page and per wordlist
+    │   │   │── pageBlocks.csv*               <- Text blocks per page per document with word counts per page and per wordlist
+    │   │   │── pageText.csv*                 <- Text per page per document with word counts per page and per wordlist
+    │   │   └── pageTextRef.csv               <- Text per page of reference report to validate word counts with CFIE–FRSE
     │   └── raw
     │       ├── Annual Reports                <- PDF files downloaded from internet websites
     │       │   ├── Bank                      <- Annual reports read and processed to create the dataset
