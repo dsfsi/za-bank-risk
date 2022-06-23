@@ -19,42 +19,44 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
 ------------
     ├── data
     │   ├── interim
-    │   │   ├── wordlists                   <- Lists of keywords/substrings to extract linguistic features
-    │   │   │   ├── causal.txt              <- Causal reasoning wordlist relating to performance commentary, based on a composite wordlist from El-Haj et al.
-    │   │   │   ├── causalMartin50.txt      <- Causal reasoning wordlist based on El-Haj et al.
-    │   │   │   ├── causalMartinAll.txt     <- Causal reasoning wordlist based on El-Haj et al.
-    │   │   │   ├── ForwardLooking.txt      <- Forwardlooking wordlist based on the list proposed by Hussainey et al.
-    │   │   │   ├── forwardLookingNew.txt   <- Forwardlooking wordlist based on an updated version of the list proposed by Hussainey et al.
-    │   │   │   ├── HenryNeg2006.txt        <- Negative wordlist based on Henry (2006)
-    │   │   │   ├── HenryNeg2008.txt        <- Negative wordlist based on Henry (2008)
-    │   │   │   ├── HenryPos2006.txt        <- Positive wordlist based on Henry (2006)
-    │   │   │   ├── HenryPos2008.txt        <- Positive wordlist based on Henry (2008)
-    │   │   │   ├── LMnegative.txt          <- Negative wordlist based on Loughran and McDonald
-    │   │   │   ├── LMpositive.txt          <- Positive wordlist based on Loughran and McDonald
-    │   │   │   ├── newStrategy.txt         <- Wordlist for identifying strategy-related commentary based on El-Haj et al.
-    │   │   │   ├── performance.txt         <- Wordlist for identifying performance-related commentary based on El-Haj et al.
-    │   │   │   └── Uncertainty.txt         <- Uncertainty wordlist based on Loughran and McDonald
-    │   │   ├── coMap.csv                   <- Reference data: Company mapping file
-    │   │   ├── docMap.csv                  <- Reference data: Document mapping file 
-    │   │   ├── fileNoMap.csv               <- Output data: PDF files read that were not in the document mapping file 
-    │   │   ├── header.csv                  <- Output data: Header text extracted from PDF files
-    │   │   ├── match.csv                   <- Keywords to match and classify headers based on El-Haj et al.
-    │   │   └── MatchToC.txt                <- Keywords to identify Table of Content header
+    │   │   ├── wordlists                     <- Lists of keywords/substrings to extract linguistic features
+    │   │   │   ├── causal.txt                <- Causal reasoning wordlist relating to performance commentary, based on a composite wordlist from El-Haj et al.
+    │   │   │   ├── causalMartin50.txt        <- Causal reasoning wordlist based on El-Haj et al.
+    │   │   │   ├── causalMartinAll.txt       <- Causal reasoning wordlist based on El-Haj et al.
+    │   │   │   ├── ForwardLooking.txt        <- Forwardlooking wordlist based on the list proposed by Hussainey et al.
+    │   │   │   ├── forwardLookingNew.txt     <- Forwardlooking wordlist based on an updated version of the list proposed by Hussainey et al.
+    │   │   │   ├── HenryNeg2006.txt          <- Negative wordlist based on Henry (2006)
+    │   │   │   ├── HenryNeg2008.txt          <- Negative wordlist based on Henry (2008)
+    │   │   │   ├── HenryPos2006.txt          <- Positive wordlist based on Henry (2006)
+    │   │   │   ├── HenryPos2008.txt          <- Positive wordlist based on Henry (2008)
+    │   │   │   ├── LMnegative.txt            <- Negative wordlist based on Loughran and McDonald
+    │   │   │   ├── LMpositive.txt            <- Positive wordlist based on Loughran and McDonald
+    │   │   │   ├── newStrategy.txt           <- Wordlist for identifying strategy-related commentary based on El-Haj et al.
+    │   │   │   ├── performance.txt           <- Wordlist for identifying performance-related commentary based on El-Haj et al.
+    │   │   │   └── Uncertainty.txt           <- Uncertainty wordlist based on Loughran and McDonald
+    │   │   ├── coMap.csv                     <- Reference data: Company mapping file
+    │   │   ├── docMap.csv                    <- Reference data: Document mapping file 
+    │   │   ├── fileNoMap.csv                 <- Output data: PDF files read that were not in the document mapping file 
+    │   │   ├── header.csv                    <- Output data: Header text extracted from PDF files
+    │   │   ├── match.csv                     <- Keywords to match and classify headers based on El-Haj et al.
+    │   │   └── MatchToC.txt                  <- Keywords to identify Table of Content header
     │   ├── processed
-    │   │   └── pageText.csv                <- Text per page per document with word counts per page and per wordlist
+    │   │   └── pageText.csv*                 <- Text per page per document with word counts per page and per wordlist
     │   └── raw
-    │       ├── Annual Reports              <- PDF files downloaded from internet websites
-    │       │   ├── Bank                    <- Annual reports read and processed to create the dataset
-    │       │   └── Insurer                 <- Empty folder for insurer reports to be stored in future
-    │       └── Other                       <- Other risk-related reports downloaded from internet websites
-    ├── notebooks                           <- Python code
-    │   ├── colab                           <- Code for Google Colaboratory and cloud runtime
-    │   │   └── 1_0_Colab Import.ipynb      <- Extract PDF text, convert booklets, count words by page and write pageText.csv
-    │   └── jupyter                         <- Code for Python 3 and local runtime e.g. using Jupyter or JupyterLab
-    │       └── 1_0_Import.ipynb            <- Extract PDF text, convert booklets, count words by page and write pageText.csv
+    │       ├── Annual Reports                <- PDF files downloaded from internet websites
+    │       │   ├── Bank                      <- Annual reports read and processed to create the dataset
+    │       │   └── Insurer                   <- Empty folder for insurer reports to be stored in future
+    │       └── Other                         <- Other risk-related reports downloaded from internet websites
+    ├── notebooks                             <- Python code
+    │   ├── colab                             <- Code for Google Colaboratory and cloud runtime
+    │   │   └── 1_0_Colab Import.ipynb        <- Extract PDF text, convert booklets, count words by page and write pageText.csv
+    │   └── jupyter                           <- Code for Python 3 and local runtime e.g. using Jupyter or JupyterLab
+    │       │── 1_0_Import.ipynb              <- Extract PDF text, convert booklets, count words by page and write pageText.csv
+    │       └── 1_1_Import Count Blocks.ipynb <- Extract PDF text, convert booklets, count words by page and write pageBlocks.csv
     ├── .gitignore
     ├── LICENSE
     └── README.md
+* To be uploaded (too large for commit/push)
 
 ## Online Repository link
 
