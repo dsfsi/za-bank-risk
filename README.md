@@ -41,8 +41,8 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     │   │   └── MatchToC.txt                  <- Keywords to identify Table of Content header
     │   ├── processed
     │   │   ├── docReadability.csv            <- Readability results per document without the text
-    │   │   ├── pageBlocks.csv*               <- Text blocks per page per document with word counts per page and per wordlist
-    │   │   ├── pageText.csv*                 <- Text per page per document with word counts per page and per wordlist
+    │   │   ├── pageBlocks.csv                <- Text blocks per page per document with word counts per page and per wordlist
+    │   │   ├── pageText.csv                  <- Text per page per document with word counts per page and per wordlist
     │   │   ├── pageTextRef.csv               <- Text per page of reference report to validate word counts with CFIE–FRSE
     │   │   ├── prob_test_LR.csv              <- Probability of risk on test dataset reports predicted by Logistic Regression
     │   │   └── prob_test_SVMa.csv            <- Probability of risk on test dataset reports predicted by Support Vector Machine with auto gamma
@@ -64,7 +64,6 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
     ├── .gitignore
     ├── LICENSE
     └── README.md
-* To be uploaded (too large for commit/push)
 
 ## Online Repository link
 
