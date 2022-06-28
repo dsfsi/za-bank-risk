@@ -1,5 +1,7 @@
 # South African Bank Risk Dataset
 
+[![DOI](https://zenodo.org/badge/358567011.svg)](https://zenodo.org/badge/latestdoi/358567011)
+
 ## About Dataset
 
 This repository is an initial pipeline for reading, processing, labelling and classifying unstructured annual reports of South African (SA) banks with the aim of identifying financial risk. It leveraged work by the Corporate Financial Information Environment-Final Report Structure Extractor (CFIE–FRSE) of El-Haj et al. which created a corpus of annual reports of United Kingdom (UK) companies.
@@ -67,7 +69,7 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
 
 ## Online Repository link
 
-* [Zenodo Data Repository]() - Link to the data repository.
+* [Zenodo Data Repository](https://zenodo.org/record/6769996) - Link to the data repository.
 
 ## Authors
 
