@@ -74,7 +74,7 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
 * **Lamont Theron** 
 * **Vukosi Marivate** - [@vukosi](https://twitter.com/vukosi)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/dsfsi/za-bank-risk/contributors) who participated in this project.
 
 ## License
 
