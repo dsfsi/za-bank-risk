@@ -78,5 +78,5 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-
-
+Data is Licensed under CC 4.0 BY
+Code is Licences under MIT License.
