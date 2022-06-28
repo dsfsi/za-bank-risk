@@ -67,7 +67,7 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
 
 ## Online Repository link
 
-* [Zenodo Data Repository](https://doi.org/10.5281/zenodo.4682843) - Link to the data repository.
+* [Zenodo Data Repository]() - Link to the data repository.
 
 ## Authors
 
@@ -77,7 +77,6 @@ Of the potential 297 annual reports from 2009 to 2019, 258 were sourced with the
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-* Media Monitoring Africa
+
+
