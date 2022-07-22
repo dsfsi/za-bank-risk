@@ -80,5 +80,5 @@ See also the list of [contributors](https://github.com/dsfsi/za-bank-risk/contri
 
 ## License
 
-Data is Licensed under CC 4.0 BY
+Data is Licensed under CC 4.0 BY SA
 Code is Licences under MIT License.
