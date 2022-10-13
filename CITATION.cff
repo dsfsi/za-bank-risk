@@ -1,5 +1,5 @@
 cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+message: "This repository is an initial pipeline for reading, processing, labelling and classifying unstructured annual reports of South African (SA) banks with the aim of identifying financial risk. It leveraged work by the Corporate Financial Information Environment-Final Report Structure Extractor (CFIE–FRSE) of El-Haj et al. which created a corpus of annual reports of United Kingdom (UK) companies."
 authors:
   - family-names: Theron
     given-names: Lamont
@@ -7,5 +7,5 @@ authors:
     given-names: Vukosi
     orcid: https://orcid.org/0000-0002-6731-6267
 title: South African Bank Risk Dataset
-version: v1.0.1
+version: v1.0.3
 date-released: 2022-06-28
