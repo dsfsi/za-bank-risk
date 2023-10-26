@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/358567011.svg)](https://zenodo.org/badge/latestdoi/358567011)
 
+Give Feedback 📑: [DSFSI Resource Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSf7S36dyAUPx2egmXbFpnTBuzoRulhL5Elu-N1eoMhaO7v10w/formResponse)
+
 ## About Dataset
 
 This repository is an initial pipeline for reading, processing, labelling and classifying unstructured annual reports of South African (SA) banks with the aim of identifying financial risk. It leveraged work by the Corporate Financial Information Environment-Final Report Structure Extractor (CFIE–FRSE) of El-Haj et al. which created a corpus of annual reports of United Kingdom (UK) companies.
